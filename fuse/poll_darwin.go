@@ -35,7 +35,7 @@ func pollHack(mountPoint string) error {
 	fd, err := syscall.Open(filepath.Join(mountPoint, pollHackName), syscall.O_RDONLY, 0)
 	if err == syscall.EPERM {
 		// This can happen due to macos sandboxing, see
-		// https://github.com/hanwen/go-fuse/issues/572#issuecomment-2904052441
+		// https://github.com/4831c0/go-fuse/issues/572#issuecomment-2904052441
 		// If we don't have access to access our own mount
 		// point, we also can't deadlock ourselves with poll, so this is fine.
 		return nil

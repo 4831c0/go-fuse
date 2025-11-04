@@ -9,7 +9,7 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
+	"github.com/4831c0/go-fuse/v2/fuse"
 )
 
 // MemRegularFile is a filesystem node that holds a data

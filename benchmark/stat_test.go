@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hanwen/go-fuse/v2/fs"
-	"github.com/hanwen/go-fuse/v2/fuse"
-	"github.com/hanwen/go-fuse/v2/internal/testutil"
+	"github.com/4831c0/go-fuse/v2/fs"
+	"github.com/4831c0/go-fuse/v2/fuse"
+	"github.com/4831c0/go-fuse/v2/internal/testutil"
 )
 
 func setupFS(node fs.InodeEmbedder, N int, tb testing.TB) string {

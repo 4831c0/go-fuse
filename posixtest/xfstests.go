@@ -11,12 +11,12 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
+	"github.com/4831c0/go-fuse/v2/fuse"
 	"golang.org/x/sys/unix"
 )
 
 // DirSeek tests that seeking on a directory works for
-// https://github.com/hanwen/go-fuse/issues/344 .
+// https://github.com/4831c0/go-fuse/issues/344 .
 //
 // Go port of xfstests generic/257.
 //

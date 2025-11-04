@@ -7,7 +7,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
+	"github.com/4831c0/go-fuse/v2/fuse"
 )
 
 // Utimens - file handle based version of loopbackFileSystem.Utimens()

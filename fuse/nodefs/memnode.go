@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
+	"github.com/4831c0/go-fuse/v2/fuse"
 )
 
 // NewMemNodeFSRoot creates an in-memory node-based filesystem. Files

@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // This is main program driver for MultiZipFs from
-// github.com/hanwen/go-fuse/zipfs, a filesystem for mounting multiple
+// github.com/4831c0/go-fuse/zipfs, a filesystem for mounting multiple
 // read-only archives. It can be used by symlinking to an archive file
 // from the config/ subdirectory.
 package main
@@ -15,8 +15,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/hanwen/go-fuse/v2/fs"
-	"github.com/hanwen/go-fuse/v2/zipfs"
+	"github.com/4831c0/go-fuse/v2/fs"
+	"github.com/4831c0/go-fuse/v2/zipfs"
 )
 
 func main() {
